@@ -1,0 +1,27 @@
+.saved-prompts-container {
+    padding: 20px;
+  }
+  
+  .saved-prompts-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .prompt-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .prompt-item div {
+    margin-bottom: 5px;
+  }
+  
+  .prompt-item pre {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  

@@ -1,0 +1,114 @@
+.page-container {
+  padding-top:10%;
+  padding-bottom:50%;
+  max-height: 80%;
+}
+
+.sidebar {
+  position:fixed;
+  left:0;
+  width: 270px;
+  padding: 20px;
+  padding-top:0%;
+  box-sizing: border-box;
+  overflow-y: auto; 
+  overflow-x: hidden;
+  height: 100%; 
+  top:60px;
+}
+
+.main-content {
+  max-width:600px;
+  position:fixed;
+  left:25%;
+  overflow-y: auto;
+  height: 100%;
+  top:10%;
+  
+}
+.constructed {
+  position:fixed;
+  left:60%;
+  right:5%;
+  top:15%;
+}
+.theme-container, .type-container {
+  margin-bottom: 20px;
+  max-height: 300px; /* Максимальная высота контейнера */
+  overflow-y: auto; /* Прокрутка по вертикали, если содержимое превышает максимальную высоту */
+  overflow-x: hidden;
+}
+
+.theme-container h2, .type-container h2 {
+  margin-bottom: 10px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  width:90%;
+}
+
+.filtered-prompts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filtered-prompts li {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.selThemes{
+  padding-bottom:20px;
+}
+
+
+button{
+  margin:5px;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-content input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin-right: 10px;
+}

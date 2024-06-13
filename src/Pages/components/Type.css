@@ -1,0 +1,36 @@
+.typewriter-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: inline-block;
+    
+  }
+  
+  .typewriter-text {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    display: inline-block;
+  }
+  
+  .typewriter-cursor {
+    content: '|'; /* Устанавливаем символ курсора */
+    font-size: 24px; /* Размер курсора такой же, как и текста */
+    animation: blink-caret 1s infinite; /* Изменено время анимации на более плавное */
+    position: absolute; /* Устанавливаем абсолютное позиционирование для курсора */
+    top: 0; /* Располагаем курсор в верхнем левом углу относительно контейнера текста */
+    left: 100%;
+}
+  
+  @keyframes blink-caret {
+    0% {
+      opacity: 0; /* Начальное состояние курсора - прозрачный */
+    }
+    50% {
+      opacity: 1; /* Состояние курсора в середине анимации - видимый */
+    }
+    100% {
+      opacity: 0; /* Конечное состояние курсора - прозрачный */
+    }
+  }

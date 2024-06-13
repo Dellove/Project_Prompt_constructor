@@ -1,0 +1,43 @@
+header{
+    position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	padding: 20px 100px;
+	background:#494D5F;
+	box-sizing: border-box;
+	display:flex;
+	justify-content: space-between; /* Распределим элементы по ширине шапки */
+    align-items: center;
+	font-size:150%;
+	font-family: "Optima" sans-serif;
+}
+
+.navbar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 30px;
+  
+  }
+  
+  .navbar ul li a {
+    color: #d0bdf4; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position:right;  
+  }
+  
+  .navbar ul li a:hover {
+    color: #a0d2eb; 
+  }

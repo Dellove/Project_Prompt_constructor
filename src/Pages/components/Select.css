@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px; /* Максимальная ширина контейнера */
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .select-container {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  select {
+    width: 100%;
+    box-sizing: border-box; /* Чтобы padding учитывался в ширине */
+    max-width: 100%; /* Максимальная ширина списка */
+    overflow: hidden; /* Обрезать содержимое, если оно выходит за границы */
+    text-overflow: ellipsis; /* Троеточие для переполненного текста */
+    white-space: nowrap; /* Запретить перенос текста */
+    display: inline-block;
+    overflow-y: auto;
+  } 
+  button {
+    margin-top: 10px;
+  }
+  
+  .prompt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
